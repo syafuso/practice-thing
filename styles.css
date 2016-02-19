@@ -1,0 +1,105 @@
+/*.glyphicon{
+	
+	color: white;
+	top: 10px;
+}*/
+
+.navbar {
+	height: 43px !important;
+	min-height: 43px !important;
+}
+
+/*vertically align apple logo */
+.navbar-brand{
+	padding: 0px;
+}
+
+/*center nav*/
+.navbar-nav {
+	position: absolute !important;
+    transform: translateX(-50%) !important;
+    left: 50% !important;
+    width: 85%;
+}
+
+/*stretch out menu items*/
+.navbar-nav li{
+    width: 12%;
+    text-align: center;	
+}
+
+/*right-align shopping bag*/
+.pull-right{
+    position: absolute !important;
+    right: 1% !important;
+}
+
+.navbar-header{
+	margin-right: -6px !important;
+    margin-left: -11px !important;
+}
+
+.navbar-inverse{
+	background: rgba(0,0,0,0.8);
+	border-color: none;
+}
+
+
+
+.navbar-toggle {
+
+	float: left;
+}
+
+.top-icon-bar {
+
+	margin-bottom: 6px;
+}
+
+.icon-bar{
+	    width: 15px !important;
+	    height: 1px !important;
+	    background-color: #C2C2C2 !important;
+}
+
+.navbar-inverse .navbar-toggle {
+	border: none;
+}
+
+.nav li a{
+	padding:10px;
+}
+
+/*MENU - active menu item */
+.navbar-nav > .active > a{
+	background-color: #333333 !important;
+	color: #C2C2C2 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+/*MENU*/
+	/*center apple logo*/
+	.navbar-brand{
+		position: absolute;
+		transform: translateX(-50%);
+	  	left: 50%;
+	}	
+
+
+}
+
+
+
+
